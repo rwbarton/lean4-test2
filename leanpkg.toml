@@ -1,0 +1,9 @@
+[package]
+name = "test2"
+version = "0.1"
+lean_version = "leanprover/lean4:stable"
+path = "."
+
+[dependencies]
+test = {git = "https://github.com/rwbarton/lean4-test", rev = "6ca157fd66cd3823f22776ee854013a010bd6451"}
+localdep = {path = "./localdep"}
